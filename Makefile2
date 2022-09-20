@@ -1,0 +1,2 @@
+all: prime_threads.c 
+	gcc -o multithread prime_threads.c -lpthread
